@@ -32,7 +32,7 @@ namespace App_Service_Demo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello to Azure!");
                 });
             });
         }
